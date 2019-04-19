@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 768px;
     background: #ebebeb;
 }
 
@@ -70,36 +69,16 @@ body{
     background: #333333;
 }
 
-.details_info1 p{
-    margin: 0;
-    font-weight: normal;
+.details_h p{
+    margin: 0px 0px;
     float: left;
-    margin-left: 20px;
-    padding-top: 20px;
+    color: #32b998;
 }
 
-.details_info2 p{
-    margin: 0;
-    font-weight: normal;
+.details_area p{
+    margin: 0px 0px;
     float: left;
-    margin-left: 20px;
-    padding-top: 5px;
-}
-
-.details_info3 p{
-    margin: 0;
-    font-weight: normal;
-    float: left;
-    margin-left: 20px;
-    padding-top: 5px;
-}
-
-.details_info4 p{
-    margin: 0;
-    font-weight: normal;
-    float: left;
-    margin-left: 20px;
-    padding-top: 5px;
+    color: #ffffff;
 }
 
 .info_area img{
@@ -138,4 +117,27 @@ body{
     border-radius: 30px;
     color: #333;
     border: 2px solid #333;
+}
+
+.info_h p{
+    margin: 8px;
+    font-weight: normal;
+    float: left;
+    margin-left: 5px;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.info_mem img{
+    margin: 0;
+    float: left;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.info_mem p{
+    margin: 10px 10px;
+    font-weight: normal;
+    float: left;
+    color: #ffffff;
 }
