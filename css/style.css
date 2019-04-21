@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    width: 1024px;
+    width: 1400px;
     background: #ebebeb;
 }
 
@@ -31,7 +31,7 @@ body{
     width: 245px;
     height: 215px;
     float: left;
-    margin-left: 150px;
+    margin-left: 200px;
     background: #ffffff;
 }
 
@@ -51,12 +51,20 @@ body{
     background: #333333;
 }
 
+.details_h{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 455px;
+    height: 215px;
+    background: #333333;
+}
+
 .details_area{
-    margin-top: 215px;
+    margin-top: 0px;
     margin-left: 0px;
     width: 455px;
     height: 320px;
-    background: #0e9b1a;
+    background: #ffffffff;
 }
 
 .commentbox{
@@ -68,17 +76,26 @@ body{
     margin-right: 10px;
     background: #333333;
 }
+.details_h h1{
+    margin-top: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+}
 
 .details_h p{
     margin: 0px 0px;
+    padding-left: 20px;
     float: left;
-    color: #32b998;
+    color: #ffffff;
+}
+
+.details_area img{
+    margin: 10px 0 0 0;
 }
 
 .details_area p{
-    margin: 0px 0px;
-    float: left;
-    color: #ffffff;
+    padding-left: 20px;
+    color: #333333;
 }
 
 .info_area img{
@@ -119,25 +136,34 @@ body{
     border: 2px solid #333;
 }
 
-.info_h p{
-    margin: 8px;
-    font-weight: normal;
-    float: left;
-    margin-left: 5px;
-    padding-top: 5px;
+.info_area2 p{
+    margin: 0px 0px;
+    padding-left: 20px;
     color: #ffffff;
 }
 
-.info_mem img{
-    margin: 0;
-    float: left;
-    margin-left: 20px;
-    padding-top: 5px;
+.comment_head img{
+    margin-top: 10px 
 }
 
-.info_mem p{
-    margin: 10px 10px;
-    font-weight: normal;
-    float: left;
-    color: #ffffff;
+.comment_button button{
+    margin-top: 5px;
+    margin-left: 85px;
+    padding-bottom: 8px;
+    width: 50px;
+    height: 50px;
+    background: #32b998;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.comment_button button:hover {
+    background: #ffffff;
+    border-radius: 40px;
+    color: #333;
+    border: 2px solid #333;
 }
