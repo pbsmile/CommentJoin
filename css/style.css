@@ -76,6 +76,15 @@ body{
     margin-right: 10px;
     background: #333333;
 }
+
+.comment_scroll{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 225px;
+    height: 400px;
+    background: #ffffffff;
+}
+
 .details_h h1{
     margin-top: 10px;
     padding-left: 10px;
@@ -136,9 +145,22 @@ body{
     border: 2px solid #333;
 }
 
-.info_area2 p{
-    margin: 0px 0px;
-    padding-left: 20px;
+.info_h img{
+    margin: 0;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.info_mem img{
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.info_mem p{
+    float: right;
+    margin-right: 50px;
+    padding-top: 15px;
     color: #ffffff;
 }
 
@@ -147,8 +169,8 @@ body{
 }
 
 .comment_button button{
-    margin-top: 5px;
-    margin-left: 85px;
+    margin-top: 12px;
+    margin-left: 180px;
     padding-bottom: 8px;
     width: 50px;
     height: 50px;
@@ -167,3 +189,57 @@ body{
     color: #333;
     border: 2px solid #333;
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #333;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 455px;
+    height: 330px;
+  }
+
+  .modal-content button{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background: #32b998;
+    color: #333333;
+    margin-left: 180px;
+    cursor: pointer;
+  }
+  
+  /* The Close Button */
+  .close {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: #32b998;
+    color: #ffffff;
+    float: right;
+    padding-left: 15px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
