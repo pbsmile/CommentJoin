@@ -12,18 +12,52 @@ body{
     background: #32b998;
 }
 
-.menubar img{
+.applogo img{
     margin: 0;
     float: left;
     margin-left: 40px;
     padding-top: 20px;
 }
-.menubar h1{
+.applogo h1{
     margin: 0;
     font-weight: normal;
     float: left;
     margin-left: 20px;
     padding-top: 20px;
+}
+
+.menulog img{
+    margin-top: 0px;
+    float: left;
+    margin-left: 750px;
+    padding-top: 10px;
+}
+
+.menulog h1{
+    margin: 0;
+    float: left;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.menulog button{
+    margin: 0;
+    float: left;
+    margin-left: 50px;
+    padding-top: 0px;
+    width: 85px;
+    height: 15px;
+    background: #32b998;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.menulog button:hover{
+    color: #333;
 }
 
 .groupinfo{
